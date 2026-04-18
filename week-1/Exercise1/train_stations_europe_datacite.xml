@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="URL">https://www.kaggle.com/datasets/headsortails/train-stations-in-europe</identifier>
+  <creators>
+    <creator>
+      <creatorName nameType="Personal">Henze, Martin</creatorName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Train Stations in Europe</title>
+  </titles>
+  <publisher>Kaggle</publisher>
+  <publicationYear>2020</publicationYear>
+  <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+  <descriptions>
+    <description descriptionType="Abstract">Names, coordinates, and basic properties of over 70,000 railway stations in Europe and adjacent regions. Derived from the trainline-eu/stations repository maintained by Trainline EU.</description>
+  </descriptions>
+  <subjects>
+    <subject>railway stations</subject>
+    <subject>train stations</subject>
+    <subject>Europe</subject>
+    <subject>coordinates</subject>
+    <subject>geospatial</subject>
+    <subject>transportation</subject>
+    <subject>UIC codes</subject>
+  </subjects>
+  <rightsList>
+    <rights rightsURI="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL) v1.0</rights>
+  </rightsList>
+  <language>en</language>
+  <version>23</version>
+</resource>

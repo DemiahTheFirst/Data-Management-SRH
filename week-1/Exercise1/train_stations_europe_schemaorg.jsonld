@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Train Stations in Europe",
+  "description": "Names, coordinates, and basic properties of over 70,000 railway stations in Europe and adjacent regions. Derived from the trainline-eu/stations repository maintained by Trainline EU.",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Martin Henze"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kaggle"
+  },
+  "identifier": "https://www.kaggle.com/datasets/headsortails/train-stations-in-europe",
+  "keywords": [
+    "railway stations",
+    "train stations",
+    "Europe",
+    "coordinates",
+    "geospatial",
+    "transportation",
+    "UIC codes"
+  ],
+  "license": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "version": "23",
+  "inLanguage": "en",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://www.kaggle.com/datasets/headsortails/train-stations-in-europe",
+      "name": "train_stations_europe.csv"
+    }
+  ]
+}
