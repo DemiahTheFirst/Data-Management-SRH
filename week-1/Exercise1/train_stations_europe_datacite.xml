@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
   <identifier identifierType="URL">https://www.kaggle.com/datasets/headsortails/train-stations-in-europe</identifier>
   <creators>
@@ -13,20 +13,15 @@
   <publicationYear>2020</publicationYear>
   <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
   <descriptions>
-    <description descriptionType="Abstract">Names, coordinates, and basic properties of over 70,000 railway stations in Europe and adjacent regions. Derived from the trainline-eu/stations repository maintained by Trainline EU.</description>
+    <description descriptionType="Abstract">Many European countries possess an extensive network of public transport railroads connecting large and small cities. This dataset contains the names, coordinates, and basic properties of more than 36,000 train stations in and adjacent to Europe. It was derived from data provided by the Trainline EU ticketing website, published on GitHub. The dataset is updated regularly. It includes a small number of stations in the European parts of Russia and Turkey, as well as a small number of stations in the African country of Morocco. The dataset train_stations_europe.csv is based on the Trainline EU GitHub repository. The GitHub dataset contains many more columns, most of which cover operator-specific properties (e.g. Renfe or Trenitalia) or translations into different languages. A subset was extracted to provide a more focused and complete data source. Column descriptions: id: numeric internal unique identifier, primary key. name: name of the station as locally known, including accents and special characters. name_norm: normalised version of name in Latin-ASCII character space. uic: International Union of Railways (UIC) code; approximately one third of stations have no UIC code. latitude and longitude: station coordinates; approximately 5% of stations have no coordinates. parent_station_id: the id of a meta station to which a station may belong; approximately 92% of rows have no value. country: ISO 3166-1 alpha-2 country code. time_zone: continent/country ISO codes equivalent to Olson names. is_city and is_main_station: both marked as unreliable in the source dataset.</description>
   </descriptions>
   <subjects>
-    <subject>railway stations</subject>
-    <subject>train stations</subject>
+    <subject>Transportation</subject>
     <subject>Europe</subject>
-    <subject>coordinates</subject>
-    <subject>geospatial</subject>
-    <subject>transportation</subject>
-    <subject>UIC codes</subject>
+    <subject>Geospatial Analysis</subject>
   </subjects>
   <rightsList>
     <rights rightsURI="https://opendatacommons.org/licenses/odbl/1-0/">Open Database License (ODbL) v1.0</rights>
   </rightsList>
-  <language>en</language>
   <version>23</version>
 </resource>
